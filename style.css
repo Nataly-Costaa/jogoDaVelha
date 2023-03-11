@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body {
+    color: #966a12;
+    text-align: center;
+    font-family: 'Fredoka One', sans-serif;
+    background-color: #f4fce2;
+}
+
+.quadrado {
+    border-style:groove;
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    color: #966a12;
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border-style:double;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+}
